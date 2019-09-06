@@ -1,0 +1,17 @@
+/*Este programa imprime todos los caracteres ASCII en formato  # - caracter*/
+
+let
+function f(a:int) = 
+	let
+		var x:=chr(a)
+	in
+		if a <> 32 then  f(a-1);
+		printi(a);
+            print(concat("...",x));
+		print("\n")
+	end
+in
+	print("ASCII \n");
+	f(127);
+	getchar()
+end

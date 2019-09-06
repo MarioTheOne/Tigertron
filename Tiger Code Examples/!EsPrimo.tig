@@ -1,0 +1,15 @@
+/*Este programa espera un # del usuario e imprime 1 si es primo, 0 si no*/
+
+let
+
+function EsPrimo(n:int):int=
+let
+var primo := 1
+in
+for i:= 2 to n-1 do if n - i*(n/i) = 0 then (primo:=0;break);
+primo
+end
+in
+printi(EsPrimo(29));
+getchar()
+end

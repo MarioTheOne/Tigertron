@@ -1,0 +1,18 @@
+/*Este programa imprime 10, 10, 11 y 10 en líneas independientes*/
+
+let
+	var n:= 10
+	function f(n : int) =
+	let
+		function g() = n := n + 1
+	in
+		printi(n); print("\n");
+		g();
+		printi(n); print("\n")
+	end
+in
+	printi(n); print("\n");
+	f(n);
+	printi(n);
+	getchar()
+end

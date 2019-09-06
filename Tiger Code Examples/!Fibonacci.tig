@@ -1,0 +1,19 @@
+﻿/*Este programa imprime el # iésimo de Fibonacci que entra el usuario*/
+let
+function str2int(s:string):int = 1/*esto se lo puse yo*/
+	function fib(n : int) : int =
+		if n = 0 | n = 1 then 1 else fib(n - 1) + fib(n - 2)
+	var n:= 0
+	
+	function readi() : int = 
+		let 
+			var s := getline()
+		in
+			if s <> "" then str2int(s) else -1
+		end
+		
+in
+	n:= readi();
+	printi(fib(n));
+	getchar()
+end

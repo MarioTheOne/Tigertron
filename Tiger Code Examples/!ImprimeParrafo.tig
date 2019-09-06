@@ -1,0 +1,44 @@
+let
+type string_array = array of string
+type string_string_array = array of string_array 
+type intarray = array of int
+
+var palabra1 : string_array := string_array[8] of ""
+
+var parrafo : string_string_array := string_string_array[1] of palabra1 
+
+var lens : intarray := intarray[1] of 0
+
+function Imprime_Palabra (palabra:string_array, len:int ) =
+(for i := 0 to len-1 do
+    print(palabra[i]);
+print(" ")
+)
+
+function Imprime_Parrafo ( texto: string_string_array, lens:intarray) =
+for i := 0 to 0 do
+    Imprime_Palabra(texto[i], lens[i])
+
+
+
+in
+(
+lens[0] := 8;
+
+palabra1[0] := "p" ;
+palabra1[1] := "r" ;
+palabra1[2] := "o" ;
+palabra1[3] := "b" ;
+palabra1[4] := "a" ;
+palabra1[5] := "d" ;
+palabra1[6] := "o" ;
+palabra1[7] := "r" ;
+
+parrafo[0] := palabra1;
+Imprime_Parrafo(parrafo, lens);
+
+lens[0] := 1;
+parrafo[0] := string_array [1] of "\nloco gencode";
+Imprime_Parrafo(parrafo,lens)
+)
+end
