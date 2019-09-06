@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BFC5C283-CD63-468A-861D-278269ECA9D6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TigertronCompiler</RootNamespace>
+    <AssemblyName>TigertronCompiler</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Tigertron Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>Dependencies\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ErrorHandling\ErrorKind.cs" />
+    <Compile Include="IntermediateCodeGeneration\ProgramGenerator.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationsBlock\RecursiveDeclarationSeqNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\EqualityOperation\EqualityOperation.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\IntegerOperation.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\NilType.cs" />
+    <Compile Include="DecoratedAST\Interfaces\IBreakable.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\StatementDeclarationNode.cs" />
+    <Compile Include="SymbolTableManagement\SymbolNode\StatementSymbol.cs" />
+    <Compile Include="SymbolTableManagement\SymbolNode\FunctionSymbol.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\CallableExprDeclaration\CallableExprDeclarationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\VariableDeclaration\DefTypeVarDeclarationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\VariableDeclaration\InfTypeVarDeclarationNode.cs" />
+    <Compile Include="IntermediateCodeGeneration\ILCodeGenerator.cs" />
+    <Compile Include="IntermediateCodeGeneration\ICodeGenerator.cs" />
+    <Compile Include="IntermediateCodeGeneration\StandardLibrary.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\CallableExprDeclaration\ProcedureDeclarationNode.cs" />
+    <Compile Include="DecoratedAST\ASTFactory.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\AccessInstructionNode\AccesInstructionNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\TypeDeclaration\AliasDeclarationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\ArithmeticalOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\AccessInstructionNode\ArrayAccessNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\ArrayConstantNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\TypeDeclaration\ArrayDeclarationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\AssignOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\AtomicDeclarationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\BinaryOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\BreakNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\ConditionalControlNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\ConditionalJump.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\LogicalOperation\AndOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\ConstantValue.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationsBlock\DeclarationSeqNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DecoratedASTNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\LogicalOperation\OrOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\EqualityOperation\DistinctOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\DivOperatorNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\EqualityOperation\EqualOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\ExpressionNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\FlowControlNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\ForLoopNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\AccesibleExpression\FunctionCallNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\CallableExprDeclaration\FunctionDeclarationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationsBlock\FunctionDeclarationSeqNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\RelationalOperation\GreaterEqualThan.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\RelationalOperation\GreaterThanOperationNode.cs" />
+    <Compile Include="DecoratedAST\Interfaces\IAssignable.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\AccesibleExpression\IdentifierNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\IfThenElseNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\IfThenNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\InstructionNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\AccesibleExpression\InstructionSequenceNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\IntegerConstant.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\RelationalOperation\LessEqualThanOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\RelationalOperation\LessThanOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\AccesibleExpression\LetInstructionNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\LogicalOperation\LogicalOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\LoopsNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\MinusOperatorNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\MultOperatorNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\UnaryMinusOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\NilValueNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\OperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\PlusOperatorNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\AccessInstructionNode\RecordAccessNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\RecordCostantNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\TypeDeclaration\RecordDeclarationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\RelationalOperation\RelationalOperationNode.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\AliasType.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\ArrayType.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\AuxiliarType.cs" />
+    <Compile Include="Compiler.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\CompositeType.cs" />
+    <Compile Include="ErrorHandling\Error.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\ErrorType.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\IntegerType.cs" />
+    <Compile Include="LexicalAnalysis\TigerLexer.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\BuiltInType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\RecordType.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\TypeConstructor.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\SimpleConstantNode.cs" />
+    <Compile Include="SintaxAnalysis\TigerParser.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\StringType.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\TypeExpression.cs" />
+    <Compile Include="SemanticAnalysis\TypeChecking\TypeExpression\VoidType.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\StringConstant.cs" />
+    <Compile Include="SymbolTableManagement\SymbolNode\Symbol.cs" />
+    <Compile Include="SymbolTableManagement\SymbolStore\Scope.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\TypeDeclaration\TypeDeclarationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationsBlock\TypeDeclarationSeqNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\UnaryOperationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\VariableDeclaration\VarDeclarationNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationsBlock\VarDeclarationSeqNode.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\WhileLoopNode.cs" />
+    <Compile Include="SymbolTableManagement\SymbolStore\SymbolTable.cs" />
+    <Compile Include="SymbolTableManagement\SymbolNode\TypeSymbol.cs" />
+    <Compile Include="SymbolTableManagement\SymbolNode\FieldSymbol.cs" />
+    <Compile Include="DecoratedAST\DecoratedAST_Node\DeclarationNode\FieldNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Tigertron Logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LexicalAnalysis\Tiger.tokens" />
+    <None Include="DecoratedAST\DecoratedAST_Hierarchy.cd" />
+    <None Include="SemanticAnalysis\TypeChecking\TypeHierarchy.cd" />
+    <None Include="SymbolTableManagement\SymbolHierarchy.cd" />
+    <None Include="TigerGrammar\Tiger.g" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

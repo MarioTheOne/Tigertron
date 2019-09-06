@@ -1,0 +1,97 @@
+C:\Users\Gustavo\Desktop\TigertronCompiler\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\TigertronCompiler\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+C:\Users\Gustavo\Desktop\TigertronCompiler\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+C:\Users\Gustavo\Desktop\TigertronCompiler\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+C:\Users\Gustavo\Desktop\TigertronCompiler\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+C:\Users\Gustavo\Desktop\TigertronCompiler\TigertronCompiler\bin\Debug\Antlr3.Runtime.dll
+D:\Mis Proyectos\comp\TigertronCompiler v0.54G\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TigertronCompiler v0.54G\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\TigertronCompiler v0.54G\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mis Proyectos\comp\TigertronCompiler v0.54G\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TigertronCompiler v0.54G\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.6\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.6\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.6\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.6\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.6\TigertronCompiler\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.6\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mis Proyectos\comp\TigertronCompiler v0.65\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TigertronCompiler v0.65\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\TigertronCompiler v0.65\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TigertronCompiler v0.65\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\TigertronCompiler v0.65\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mis Proyectos\comp\TigertronCompiler v0.666\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TigertronCompiler v0.666\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\TigertronCompiler v0.666\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TigertronCompiler v0.666\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\TigertronCompiler v0.666\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.666\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.666\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.666\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.666\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.666\TigertronCompiler\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Gustavo\Desktop\TigertronCompiler v0.666\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mis Proyectos\comp\TigertronCompiler v0.7\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TigertronCompiler v0.7\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\TigertronCompiler v0.7\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TigertronCompiler v0.7\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\TigertronCompiler v0.7\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mis Proyectos\comp\TigertronCompiler v0.75\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TigertronCompiler v0.75\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\TigertronCompiler v0.75\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TigertronCompiler v0.75\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\TigertronCompiler v0.75\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Mario\Desktop\TigertronCompiler v 0.777\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Users\Mario\Desktop\TigertronCompiler v 0.777\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Users\Mario\Desktop\TigertronCompiler v 0.777\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Users\Mario\Desktop\TigertronCompiler v 0.777\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Users\Mario\Desktop\TigertronCompiler v 0.777\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\Tigertron v0.8\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+C:\Users\Gustavo\Desktop\Tigertron v0.8\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+C:\Users\Gustavo\Desktop\Tigertron v0.8\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+C:\Users\Gustavo\Desktop\Tigertron v0.8\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+C:\Users\Gustavo\Desktop\Tigertron v0.8\TigertronCompiler\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Gustavo\Desktop\Tigertron v0.8\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Mario\Desktop\Tigertron v0.81\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Users\Mario\Desktop\Tigertron v0.81\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Users\Mario\Desktop\Tigertron v0.81\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Mario\Desktop\Tigertron v0.81\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Users\Mario\Desktop\Tigertron v0.81\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\Tigertron v0.85\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\Tigertron v0.85\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\Tigertron v0.85\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\Tigertron v0.85\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Mis Proyectos\comp\Tigertron v0.85\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Mario\Desktop\Tigertron v0.85\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Users\Mario\Desktop\Tigertron v0.85\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Users\Mario\Desktop\Tigertron v0.85\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Users\Mario\Desktop\Tigertron v0.85\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Users\Mario\Desktop\Tigertron v0.85\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Mario\Desktop\TigertronCompiler v1.0 SP3\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Users\Mario\Desktop\TigertronCompiler v1.0 SP3\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Users\Mario\Desktop\TigertronCompiler v1.0 SP3\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Users\Mario\Desktop\TigertronCompiler v1.0 SP3\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Users\Mario\Desktop\TigertronCompiler v1.0 SP3\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mario\Desktop\TIGER-MarioPrado(C412)-GustavoLara(C412)\CÓDIGO\TigertronCompiler v1.0 SP3\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+C:\Users\Mario\Desktop\TIGER-MarioPrado(C412)-GustavoLara(C412)\CÓDIGO\TigertronCompiler v1.0 SP3\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+C:\Users\Mario\Desktop\TIGER-MarioPrado(C412)-GustavoLara(C412)\CÓDIGO\TigertronCompiler v1.0 SP3\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+C:\Users\Mario\Desktop\TIGER-MarioPrado(C412)-GustavoLara(C412)\CÓDIGO\TigertronCompiler v1.0 SP3\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+C:\Users\Mario\Desktop\TIGER-MarioPrado(C412)-GustavoLara(C412)\CÓDIGO\TigertronCompiler v1.0 SP3\TigertronCompiler\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Mario\Desktop\TIGER-MarioPrado(C412)-GustavoLara(C412)\CÓDIGO\TigertronCompiler v1.0 SP3\TigertronCompiler\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mis Proyectos\comp\TIGER-MarioPrado(C412)-GustavoLara(C412)\CÓDIGO\TigertronCompiler v1.0 SP3\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Mis Proyectos\comp\TIGER-MarioPrado(C412)-GustavoLara(C412)\CÓDIGO\TigertronCompiler v1.0 SP3\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Personal_Projects\Dossier\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version)\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Personal_Projects\Dossier\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version)\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Personal_Projects\Dossier\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version)\TigertronCompiler\obj\x86\Debug\TigertronCompiler.csprojAssemblyReference.cache
+D:\Personal_Projects\Dossier\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version)\TigertronCompiler\obj\x86\Debug\TigertronCompiler.csproj.CoreCompileInputs.cache
+D:\Personal_Projects\Dossier\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version)\TigertronCompiler\obj\x86\Debug\TigertronCompiler.csproj.CopyComplete
+D:\Personal_Projects\Dossier\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version)\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Personal_Projects\Dossier\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version)\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Personal_Projects\Dossier\Not Sync\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version3)\TigertronCompiler\obj\x86\Debug\TigertronCompiler.csprojAssemblyReference.cache
+D:\Personal_Projects\Dossier\Not Sync\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version3)\TigertronCompiler\obj\x86\Debug\TigertronCompiler.csproj.CoreCompileInputs.cache
+D:\Personal_Projects\Dossier\Not Sync\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version3)\TigertronCompiler\obj\x86\Debug\TigertronCompiler.exe
+D:\Personal_Projects\Dossier\Not Sync\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version3)\TigertronCompiler\obj\x86\Debug\TigertronCompiler.pdb
+D:\Personal_Projects\Dossier\Not Sync\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version3)\TigertronCompiler\bin\Debug\TigertronCompiler.exe
+D:\Personal_Projects\Dossier\Not Sync\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version3)\TigertronCompiler\bin\Debug\TigertronCompiler.pdb
+D:\Personal_Projects\Dossier\Not Sync\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version3)\TigertronCompiler\bin\Debug\Antlr3.Runtime.dll
+D:\Personal_Projects\Dossier\Not Sync\Tigertron\Tigertron\CÓDIGO\TigertronCompiler (GitHub Version3)\TigertronCompiler\obj\x86\Debug\TigertronCompiler.csproj.CopyComplete

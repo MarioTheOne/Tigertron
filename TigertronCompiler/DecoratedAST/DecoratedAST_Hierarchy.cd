@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.DecoratedASTNode" Collapsed="true">
+    <Position X="51.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DecoratedASTNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.DeclarationNode" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.InstructionNode" Collapsed="true">
+    <Position X="64.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\InstructionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.ExpressionNode" Collapsed="true">
+    <Position X="50.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\ExpressionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.DeclarationSeqNode" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAQAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationsBlock\DeclarationSeqNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.AtomicDeclarationNode" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAEAgAAgAIAAAAAAAAAQAAAQAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\AtomicDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.VarDeclarationNode" Collapsed="true">
+    <Position X="18.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEICAAABIAAAEAAAAAAAAEAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\VarDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.AliasDeclarationNode" Collapsed="true">
+    <Position X="9" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACABAAAAAAAAAAAAAAAAAIAAAEAAAAAAEAAAACAIAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\AliasDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.ArrayDeclarationNode" Collapsed="true">
+    <Position X="11.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAIAAAIAAAAAAAAAAAIAAAEAAAAAAEAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\ArrayDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.TypeDeclarationNode" Collapsed="true">
+    <Position X="11.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\TypeDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.RecordDeclarationNode" Collapsed="true">
+    <Position X="14" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAEAACAAAIAAAEAAAAAAEAAAACAgAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\RecordDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.FunctionDeclarationNode" Collapsed="true">
+    <Position X="25.5" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\FunctionDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.TypeDeclarationSeqNode" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAACAAABCAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationsBlock\TypeDeclarationSeqNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.FunctionDeclarationSeqNode" Collapsed="true">
+    <Position X="3.25" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationsBlock\FunctionDeclarationSeqNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.VarDeclarationSeqNode" Collapsed="true">
+    <Position X="6.25" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationsBlock\VarDeclarationSeqNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.ConditionalJumpNode" Collapsed="true">
+    <Position X="31.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAgAgAAACAAAAAABAAAAAACACAAAAEAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\ConditionalJump.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.LoopsNode" Collapsed="true">
+    <Position X="36" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAgAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\LoopsNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.BreakNode" Collapsed="true">
+    <Position X="28.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAACAAAAAAACEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\BreakNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.IfThenNode" Collapsed="true">
+    <Position X="30.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAACEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\IfThenNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.IfThenElseNode" Collapsed="true">
+    <Position X="32.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAgAAAAAAAAAgAAAAAAACAAAAAAAAACEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\IfThenElseNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.ConditionalFlowControlNode" Collapsed="true">
+    <Position X="33.5" Y="6" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAFAAAQAAAAEABAEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\ConditionalControlNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.WhileLoopNode" Collapsed="true">
+    <Position X="35" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\WhileLoopNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.ForLoopNode" Collapsed="true">
+    <Position X="37.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAgAAIAAAABAAAABAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\ForLoopNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.InstructionsSeqNode" Collapsed="true">
+    <Position X="63.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAADEAAAAAAEIAACAAAAAACCEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\AccesibleExpression\InstructionSequenceNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.AccessInstructionNode" Collapsed="true">
+    <Position X="40.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAACAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\AccessInstructionNode\AccesInstructionNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.ArrayAccessNode" Collapsed="true">
+    <Position X="39.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAACACAAAAAEAAAAAAAAAACCEAAQ=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\AccessInstructionNode\ArrayAccessNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.RecordAccessNode" Collapsed="true">
+    <Position X="41.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAACAAAAAAAGAAAAEAAAAACCEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\AccessInstructionNode\RecordAccessNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.ConstantValueNode" Collapsed="true">
+    <Position X="49" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\ConstantValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.IntegerConstantNode" Collapsed="true">
+    <Position X="44" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAACEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\IntegerConstant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.StringConstantNode" Collapsed="true">
+    <Position X="46.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAACEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\StringConstant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.NilValueNode" Collapsed="true">
+    <Position X="49" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAACEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\NilValueNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.OperationNode" Collapsed="true">
+    <Position X="83.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\OperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.UnaryOperationNode" Collapsed="true">
+    <Position X="66" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\UnaryOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.BinaryOperationNode" Collapsed="true">
+    <Position X="84.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAkAIAgAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\BinaryOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.UnaryMinusOperationNode" Collapsed="true">
+    <Position X="65.75" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\UnaryMinusOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.AssignmentOperationNode" Collapsed="true">
+    <Position X="68.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAkAIAgAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\AssignOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.ArithmeticalOperationNode" Collapsed="true">
+    <Position X="79.5" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\ArithmeticalOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.PlusOperationNode" Collapsed="true">
+    <Position X="78.25" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\PlusOperatorNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.MinusOperationNode" Collapsed="true">
+    <Position X="75.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\MinusOperatorNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.DivOperationNode" Collapsed="true">
+    <Position X="83.25" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\DivOperatorNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.MultOperationNode" Collapsed="true">
+    <Position X="80.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\ArithmeticalOperation\MultOperatorNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.AndOperationNode" Collapsed="true">
+    <Position X="73.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\LogicalOperation\AndOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.OrOperationNode" Collapsed="true">
+    <Position X="71.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\LogicalOperation\OrOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.LogicalOperationNode" Collapsed="true">
+    <Position X="72.25" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\LogicalOperation\LogicalOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.LessEqualThanOperationNode" Collapsed="true">
+    <Position X="85.75" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\RelationalOperation\LessEqualThanOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.LessThanOperationNode" Collapsed="true">
+    <Position X="95" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\RelationalOperation\LessThanOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.GreaterEqualThanOperationNode" Collapsed="true">
+    <Position X="88.75" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\RelationalOperation\GreaterEqualThan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.GreaterThanOperationNode" Collapsed="true">
+    <Position X="92" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\RelationalOperation\GreaterThanOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.EqualOperationNode" Collapsed="true">
+    <Position X="97.75" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\EqualityOperation\EqualOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.DistinctOperationNode" Collapsed="true">
+    <Position X="100.25" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\EqualityOperation\DistinctOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.FunctionCallNode">
+    <Position X="61" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAACAAAAAAEAAAAAAIAAAACEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\AccesibleExpression\FunctionCallNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.ArrayConstantNode" Collapsed="true">
+    <Position X="51.25" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAAIAAAAAAAAAAAAAAAEAACAAAAAAAACEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\ArrayConstantNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.RecordCostantNode" Collapsed="true">
+    <Position X="53.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAACAAIEAQAAgAAAAAACEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\RecordCostantNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.LetInstructionNode" Collapsed="true">
+    <Position X="58.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACBAAAAAAAAAAAAAAAAAEAAACAAAAAAACEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\AccesibleExpression\LetInstructionNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.IdentifierNode" Collapsed="true">
+    <Position X="56.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAACAAAAAAAEAAAAAAAAEAKCEAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\AccesibleExpression\IdentifierNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.FlowControlNode" Collapsed="true">
+    <Position X="32.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\FlowControlNode\FlowControlNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.RelationalOperationNode" Collapsed="true">
+    <Position X="90.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\RelationalOperation\RelationalOperationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.SimpleConstantNode" Collapsed="true">
+    <Position X="46.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\ConstantValueNode\SimpleConstantNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.DefTypeVarDeclarationNode" Collapsed="true">
+    <Position X="16.75" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\DefTypeVarDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.InfTypeVarDeclarationNode" Collapsed="true">
+    <Position X="19.75" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\InfTypeVarDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.ProcedureDeclarationNode" Collapsed="true">
+    <Position X="22.75" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\ProcedureDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.CallableExprDeclarationNode" Collapsed="true">
+    <Position X="24" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAEAAAEAAABAAIAAAEAAAAAAIAAAACGEAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\CallableExprDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.StatementDeclarationNode" Collapsed="true">
+    <Position X="21.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\AtomicDeclaration\StatementDeclarationNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.IntegerOperation" Collapsed="true">
+    <Position X="77.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\IntegerOperation\IntegerOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.EqualityOperation" Collapsed="true">
+    <Position X="99.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\InstructionNode\OperationNode\EqualityOperation\EqualityOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.FieldNode" Collapsed="true">
+    <Position X="102.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAEAAAAgAAAAQAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\FieldNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.RecursiveDeclarationSeqNode">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\DecoratedAST_Node\DeclarationNode\DeclarationsBlock\RecursiveDeclarationSeqNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TigertronCompiler.SemanticAnalysis.DecoratedAST_Node.IAssignable" Collapsed="true">
+    <Position X="105.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\Interfaces\IAssignable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TigertronCompiler.IBreakable" Collapsed="true">
+    <Position X="107" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticAnalysis\DecoratedAST\Interfaces\IBreakable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

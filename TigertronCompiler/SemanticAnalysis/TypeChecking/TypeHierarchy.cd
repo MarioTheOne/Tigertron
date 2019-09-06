@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.TypeExpression" Collapsed="true">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAAAAAAAgAEAAAQAAgAAgACAAAAAAAAQABIYAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\TypeExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.IntegerType" Collapsed="true">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\IntegerType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.StringType" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\StringType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.VoidType" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\VoidType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.ErrorType" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAYAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\ErrorType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.AuxiliarType" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\AuxiliarType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.CompositeType" Collapsed="true">
+    <Position X="14.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAEQAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\CompositeType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.AliasType" Collapsed="true">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAEAAAAAAAABgAAAAAAAAAAAAAIYAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\AliasType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.ArrayType" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAIIAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\ArrayType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.RecordType" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAIoAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\RecordType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.BuiltInType" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\BuiltInType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigertronCompiler.SemanticAnalysis.TypeChecking.NilType" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAIYAA=</HashCode>
+      <FileName>SemanticAnalysis\TypeChecking\TypeExpression\NilType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
